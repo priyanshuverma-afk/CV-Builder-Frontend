@@ -4,6 +4,7 @@ import { AuthProvider } from "./features/auth/auth.context.jsx"
 import { InterviewProvider } from "./features/interview/interview.context.jsx"
 
 function App() {
+
   return (
     <AuthProvider>
       <InterviewProvider>
