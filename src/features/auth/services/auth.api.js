@@ -51,11 +51,11 @@ export async function logout() {
     }
 }
 
-export async function getMe() {
+export async function getUser() {
 
     try {
 
-        const response = await api.get("/api/auth/get-me")
+        const response = await api.get("/api/auth/getUser")
 
         return response.data
 
